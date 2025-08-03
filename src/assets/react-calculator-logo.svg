@@ -1,0 +1,77 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#gradient)" stroke="#61dafb" stroke-width="2"/>
+  
+  <!-- React atom orbits -->
+  <g id="react-orbits">
+    <!-- Outer orbit -->
+    <ellipse cx="100" cy="100" rx="60" ry="20" fill="none" stroke="#61dafb" stroke-width="2" opacity="0.6">
+      <animateTransform attributeName="transform" type="rotate" values="0 100 100;360 100 100" dur="8s" repeatCount="indefinite"/>
+    </ellipse>
+    
+    <!-- Middle orbit -->
+    <ellipse cx="100" cy="100" rx="45" ry="15" fill="none" stroke="#61dafb" stroke-width="2" opacity="0.8">
+      <animateTransform attributeName="transform" type="rotate" values="360 100 100;0 100 100" dur="6s" repeatCount="indefinite"/>
+    </ellipse>
+    
+    <!-- Inner orbit -->
+    <ellipse cx="100" cy="100" rx="30" ry="10" fill="none" stroke="#61dafb" stroke-width="2" opacity="1">
+      <animateTransform attributeName="transform" type="rotate" values="0 100 100;360 100 100" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+  
+  <!-- React nucleus -->
+  <circle cx="100" cy="100" r="8" fill="#61dafb"/>
+  
+  <!-- Calculator display -->
+  <rect x="70" y="85" width="60" height="25" rx="3" fill="#2a2a2a" stroke="#61dafb" stroke-width="1"/>
+  <text x="100" y="100" text-anchor="middle" fill="#61dafb" font-family="monospace" font-size="12" font-weight="bold">123</text>
+  
+  <!-- Calculator buttons -->
+  <g id="calc-buttons">
+    <!-- Row 1 -->
+    <rect x="70" y="115" width="12" height="12" rx="2" fill="#ff9500" opacity="0.8"/>
+    <rect x="85" y="115" width="12" height="12" rx="2" fill="#ff9500" opacity="0.8"/>
+    <rect x="100" y="115" width="12" height="12" rx="2" fill="#ff9500" opacity="0.8"/>
+    <rect x="115" y="115" width="12" height="12" rx="2" fill="#ff9500" opacity="0.8"/>
+    
+    <!-- Row 2 -->
+    <rect x="70" y="130" width="12" height="12" rx="2" fill="#34c759" opacity="0.8"/>
+    <rect x="85" y="130" width="12" height="12" rx="2" fill="#34c759" opacity="0.8"/>
+    <rect x="100" y="130" width="12" height="12" rx="2" fill="#34c759" opacity="0.8"/>
+    <rect x="115" y="130" width="12" height="12" rx="2" fill="#34c759" opacity="0.8"/>
+    
+    <!-- Row 3 -->
+    <rect x="70" y="145" width="12" height="12" rx="2" fill="#ff3b30" opacity="0.8"/>
+    <rect x="85" y="145" width="12" height="12" rx="2" fill="#ff3b30" opacity="0.8"/>
+    <rect x="100" y="145" width="12" height="12" rx="2" fill="#ff3b30" opacity="0.8"/>
+    <rect x="115" y="145" width="12" height="12" rx="2" fill="#ff3b30" opacity="0.8"/>
+  </g>
+  
+  <!-- Floating electrons -->
+  <circle cx="40" cy="60" r="3" fill="#61dafb">
+    <animateMotion dur="3s" repeatCount="indefinite">
+      <path d="M0,0 Q50,-30 100,0 Q150,30 200,0"/>
+    </animateMotion>
+  </circle>
+  
+  <circle cx="160" cy="140" r="3" fill="#61dafb">
+    <animateMotion dur="4s" repeatCount="indefinite">
+      <path d="M0,0 Q-50,30 -100,0 Q-150,-30 -200,0"/>
+    </animateMotion>
+  </circle>
+  
+  <circle cx="60" cy="160" r="3" fill="#61dafb">
+    <animateMotion dur="5s" repeatCount="indefinite">
+      <path d="M0,0 Q30,50 0,100 Q-30,150 0,200"/>
+    </animateMotion>
+  </circle>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg> 
