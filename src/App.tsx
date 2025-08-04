@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom'
 import CalculatorUI from './components/CalculatorUI'
 import NavBarUI from './components/NavBarUI'
