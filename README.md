@@ -152,9 +152,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Email**: your.email@example.com
-- **Project Link**: [https://github.com/yourusername/react-calculator](https://github.com/yourusername/react-calculator)
+- **GitHub**: [@Barocode3002](https://github.com/Barocode3002)
+- **Email**: mohen.m.barokha@gmail.com
+- **Project Link**: [https://github.com/Barocode3002/react-calculator](https://github.com/Barocode3002/react-calculator)
 
 ---
 
