@@ -5,7 +5,7 @@ import { HiOutlineBackspace } from "react-icons/hi";
 
 const CalculatorUI = () => {
   // State management for calculator display and equation
-  const [display, setDisplay] = useState('');
+  const [display, setDisplay] = useState('Lets Calculate!');
   const [equation, setEquation] = useState('');
   const [clearButtonText, setClearButtonText] = useState('AC');
 
